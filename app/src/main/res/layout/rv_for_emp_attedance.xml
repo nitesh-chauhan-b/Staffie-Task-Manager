@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:stretchColumns="1,2,3"
+    android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+                <TextView
+                    android:id="@+id/emp_attendance_date"
+                    android:textSize="16sp"
+                    android:background="@drawable/border_for_table"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:layout_width="97dp"
+                    android:layout_column="1"
+                    android:text="TextView"
+                   />
+
+                <TextView
+                    android:id="@+id/emp_attendance_status"
+                    android:textSize="16sp"
+                    android:background="@drawable/border_for_table"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:layout_width="100dp"
+                    android:layout_column="2"
+                    android:text="TextView" />
+
+        </TableRow>
+
+
+</TableLayout>

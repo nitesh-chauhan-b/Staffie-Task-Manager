@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "794153858263",
+    "project_id": "staffie-themanager",
+    "storage_bucket": "staffie-themanager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794153858263:android:8f367b0c02c66e6e5b2c92",
+        "android_client_info": {
+          "package_name": "com.managmnet.staffie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794153858263-08ho7rek0e5qnk43kgje5d47sa5miock.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6F5qdlHWfSLXgnBxhfJ4gvpQ2f7MadTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794153858263-08ho7rek0e5qnk43kgje5d47sa5miock.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

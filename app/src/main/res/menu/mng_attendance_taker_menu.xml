@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Present"
+        android:id="@+id/mng_attendance_present"
+        />
+    <item android:title="Absent"
+        android:id="@+id/mng_attendance_absent"
+        />
+    <item android:title="Half Day"
+        android:id="@+id/mng_attendance_half_day"
+        />
+    <item android:title="Double Day"
+        android:id="@+id/mng_attendance_double_day"
+        />
+
+</menu>

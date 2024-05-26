@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="greenforstatus">#01c875</color>
+    <color name="orangeforstatus">#fdab3d</color>
+    <color name="redforstatus">#e2445b</color>
+    <color name="colorforbutton">#145bff</color>
+    <color name="redforhighest">#F3082A</color>
+    <color name="defaulttextcolor">#E66A6767</color>
+    <color name="toolbarcolor">#327535</color>
+    <color name="tablecolor">#E10D65D5</color>
+    <color name="greyfortable">#6AD1CECE</color>
+    <color name="selected_color">#5B95EB</color>
+    <color name="topcolor">#016665</color>
+    <color name="maincolor">#6A029F9E</color>
+    <color name="topwhitecolor">#f7f8fc</color>
+    <color name="black2">#161e34</color>
+    <color name="real_toolbarcolor">#194687</color>
+    <color name="sideColor">#75a9f6</color>
+    <color name="ftopcolor">#231f20</color>
+
+</resources>

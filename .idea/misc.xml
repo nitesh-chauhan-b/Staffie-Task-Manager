@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1245" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/add_member_round.xml" value="0.17" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/add_round.xml" value="0.218" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/attendace.xml" value="0.208" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/back_icon.xml" value="0.197" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/border_for_table.xml" value="0.2703125" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/border_for_task.xml" value="0.1865" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/button_corners.xml" value="0.2703125" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/comment.xml" value="0.2703125" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/menu_icon.xml" value="0.1245" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/rounded_corners_for_image.xml" value="0.2703125" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/rounded_corners_textview.xml" value="0.2703125" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/table_total_corners.xml" value="0.2703125" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/text_veiw_border.xml" value="0.2703125" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/text_view_border_white.xml" value="0.152" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/drawable/time.xml" value="0.2703125" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.23828125" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout-w936dp/activity_login.xml" value="0.190625" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/activity_admin_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/activity_admin_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/activity_employee_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/activity_manager_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/activity_navigation_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/activity_navigation_employee.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/activity_navigation_manager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/activity_splash_screen.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/activity_uploaded_pdf_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/admin_create_task_view_rv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/admin_screen_with_action_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/admin_task_view_rv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/bottom.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/employee_assigned_task_rv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/employee_completed_task_rv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/employee_screen_with_action_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_admin__screen_.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_admin_attedance_check.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_admin_create_task_veiw.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_admin_create_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_admin_detail_task_veiw__edit.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_admin_detail_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_admin_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_admin_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_admin_take_attendace.xml" value="0.2295390404515522" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_admin_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_emp_mng_completed_task__view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_employee__attendance.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_employee__salary__check.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_employee__screen_.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_employee_assign_tasks.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_employee_completed_tasks.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_employee_detail_completed_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_employee_detail_task_to_complete.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_employee_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_employee_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_employee_task_to_complete.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_forgot_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager__attendace.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager__completed__task__view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager__salary__check.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager__screen_.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager__take__attendace.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager_admin_tasks.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager_assigned_task__edit.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager_completed_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager_create_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager_detail_admin_tasks.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager_detail_completed_task_veiw.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager_detail_completed_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager_detail_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_manager_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_verify_admin_email.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_verify_employee_email.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_verify_manager_email.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/manager_assigned_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/manager_assigned_task_view_rv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/manager_screen_with_action_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/manager_task_view_rv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/navigation_header_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/navigation_header_employee.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/navigation_header_manager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_admin_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_employee_assigned_task.xml" value="0.8" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_employee_completed_task.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_for_emp_attedance.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_for_file_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_for_mnager_assigned_task_member.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_for_mnager_member_selection.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_for_mng_adding_emp.xml" value="0.264" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_manager_assigned_task_view.xml" value="0.4406528189910979" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_manager_attendace_taking_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_manager_names_of_task.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_manager_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/rv_mng_got_task_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/layout/temp_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/menu/adm_assigned_task_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/menu/adm_bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/menu/emp_assigned_task_emp_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/menu/emp_bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/menu/mng_assigned_task_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/menu/mng_attendance_taker_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/menu/mng_bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/menu/mng_task_adding_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/menu/navigation_bar_for_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/menu/navigation_bar_for_employee.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/menu/navigation_bar_for_manager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/menu/remove_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Nitesh/AndroidStudioProjects/Project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1245" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

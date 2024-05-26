@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="start"
+    android:id="@+id/emp_drawer"
+    tools:context=".employee.navigationfragments.Employee_Salary_Check">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_id"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/real_toolbarcolor"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:src="@drawable/back_icon"
+                app:tint="@color/white"
+
+                />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/emp_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/real_toolbarcolor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:title="Attendance Details"
+                app:titleTextColor="@color/white" >
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView22"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:text="Attendance Details"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="24sp"-->
+<!--                android:textStyle="bold"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linearLayout4"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="10"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView22">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView23"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:text="Monthly Pay"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView24"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:text="30000"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:textStyle="bold" />-->
+<!--            </LinearLayout>-->
+
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linearLayout5"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginEnd="20dp"-->
+
+<!--                android:orientation="horizontal"-->
+<!--                android:weightSum="10"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/linearLayout4">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView25"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="2.5"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:text="Basic Pay"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView26"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:text="1000"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:textStyle="bold" />-->
+<!--            </LinearLayout>-->
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/greyfortable"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E10D65D5">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:background="@drawable/border_for_table"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Date"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_for_table"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Attendance"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <!--                    <TextView-->
+                    <!--                        android:id="@+id/textView21"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_weight="1"-->
+                    <!--                        android:background="@drawable/border_for_table"-->
+                    <!--                        android:gravity="center"-->
+                    <!--                        android:padding="2dp"-->
+                    <!--                        android:text="Pay"-->
+                    <!--                        android:textColor="@color/white"-->
+                    <!--                        android:textSize="16sp"-->
+                    <!--                        android:textStyle="bold" />-->
+
+                </TableRow>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/emp_attendace_details_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    />
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tableLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@color/greyfortable"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_for_table"
+                        android:backgroundTint="#E10D65D5"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Presents"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/emp_present"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_for_table"
+                        android:gravity="center"
+                        android:minWidth="40dp"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_for_table"
+                        android:backgroundTint="#E10D65D5"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Absents"
+
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/emp_absent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_for_table"
+                        android:gravity="center"
+                        android:minWidth="40dp"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_for_table"
+                        android:backgroundTint="#E10D65D5"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Halfdays"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/emp_halfday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_for_table"
+                        android:gravity="center"
+                        android:minWidth="40dp"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_for_table"
+                        android:backgroundTint="#E10D65D5"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Doubles"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/emp_double"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_for_table"
+                        android:gravity="center"
+                        android:minWidth="40dp"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+<!--                <TableRow-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+
+<!--                    <TextView-->
+
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:background="@drawable/border_for_table"-->
+<!--                        android:backgroundTint="#E10D65D5"-->
+<!--                        android:gravity="center"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:text="Overtimes"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="18sp" />-->
+
+<!--                    <TextView-->
+
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:background="@drawable/border_for_table"-->
+<!--                        android:gravity="center"-->
+<!--                        android:minWidth="40dp"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:text="5"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="18sp"-->
+<!--                        android:textStyle="bold" />-->
+<!--                </TableRow>-->
+
+<!--                <TableRow-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+
+<!--                    <TextView-->
+
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:background="@drawable/border_for_table"-->
+<!--                        android:backgroundTint="#E10D65D5"-->
+<!--                        android:gravity="center"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:text="Leaves"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="18sp"-->
+
+<!--                        />-->
+
+<!--                    <TextView-->
+
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:background="@drawable/border_for_table"-->
+<!--                        android:gravity="center"-->
+<!--                        android:minWidth="40dp"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:text="0"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="18sp"-->
+<!--                        android:textStyle="bold" />-->
+<!--                </TableRow>-->
+
+
+            </TableLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:maxWidth="200dp"
+                android:minHeight="40dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tableLayout2"
+                app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:minHeight="40dp"
+                    android:paddingStart="3dp"
+                    android:paddingTop="3dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="3dp"
+                    android:text="Total Payable Days"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/tablecolor"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/emp_attendance_total_days"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="0"
+                        android:textColor="@color/white"
+
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="/ 30"
+                        android:textColor="@color/white"
+
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+<!--            <TableLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="20dp"-->
+<!--                android:background="@color/greyfortable"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/tableLayout2"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/linearLayout6">-->
+
+<!--                <TableRow-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+
+<!--                    <TextView-->
+
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Pay"-->
+<!--                        android:gravity="center"-->
+<!--                        android:minWidth="80dp"-->
+<!--                        android:textSize="16sp"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:background="@drawable/border_for_table"-->
+<!--                        android:backgroundTint="@color/tablecolor"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        />-->
+
+<!--                    <TextView-->
+
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:background="@drawable/border_for_table"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textSize="16sp"-->
+<!--                        android:text="6000₹ "-->
+<!--                        android:minWidth="80dp"-->
+<!--                        android:gravity="center"-->
+<!--                        />-->
+<!--                </TableRow> <TableRow-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+
+<!--                <TextView-->
+
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Bonus"-->
+<!--                    android:gravity="center"-->
+<!--                    android:minWidth="80dp"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:backgroundTint="@color/tablecolor"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:background="@drawable/border_for_table"-->
+
+<!--                    />-->
+
+<!--                <TextView-->
+
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:background="@drawable/border_for_table"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:text="1000₹ "-->
+<!--                    android:minWidth="80dp"-->
+<!--                    android:gravity="center"-->
+<!--                    />-->
+<!--            </TableRow> <TableRow-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+
+<!--                <TextView-->
+
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Net Pay"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:backgroundTint="@color/tablecolor"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:gravity="center"-->
+<!--                    android:minWidth="80dp"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:background="@drawable/border_for_table"-->
+
+<!--                    />-->
+
+<!--                <TextView-->
+
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:background="@drawable/border_for_table"-->
+<!--                    android:backgroundTint="@color/tablecolor"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:text="7000₹"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:minWidth="80dp"-->
+<!--                    android:gravity="center"-->
+<!--                    />-->
+<!--            </TableRow>-->
+
+
+<!--            </TableLayout>-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

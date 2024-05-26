@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item android:id="@+id/admin_menu_home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        />
+
+<!--    <item android:id="@+id/adm_menu_attendance_details"-->
+<!--        android:icon="@drawable/comment"-->
+<!--        android:title="Attendance Details"/>-->
+
+    <item android:id="@+id/adm_menu_logout"
+        android:icon="@drawable/logout_icon"
+        android:title="Log out"/>
+
+<!--    <item android:id="@+id/adm_menu_settings"-->
+<!--        android:icon="@drawable/setting"-->
+<!--        android:title="Settings"/>-->
+
+<!--    <item android:id="@+id/adm_menu_help"-->
+<!--        android:icon="@drawable/help"-->
+<!--        android:title="Help"/>-->
+
+</group>
+</menu>

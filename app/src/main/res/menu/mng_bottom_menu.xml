@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Assigned"
+        android:icon="@drawable/assigned_task"
+        app:showAsAction="always"
+        android:id="@+id/mng_assigned_task"
+        />
+
+
+    <item android:title="Tasks"
+        android:icon="@drawable/given_task"
+        app:showAsAction="always"
+        android:id="@+id/mng_got_task_menu"
+        />
+    <item android:title=""
+        />
+
+    <item android:title="Attendance"
+        android:icon="@drawable/check_attendance"
+        app:showAsAction="always"
+        android:id="@+id/mng_take_attendance_menu"
+        />
+    <item android:title="Completed"
+        android:icon="@drawable/completed_tasks"
+        app:showAsAction="always"
+        android:id="@+id/mng_completed_task_menu"
+        />
+</menu>

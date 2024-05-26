@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+    <item android:id="@+id/emp_menu_home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        />
+    <item android:id="@+id/emp_menu_attendance"
+        android:icon="@drawable/attendance_icon_b"
+
+        android:title="Request attendance"
+        />
+
+    <item android:id="@+id/emp_menu_salary_check"
+        android:icon="@drawable/attendace"
+        android:title="Attendance Check"/>
+
+    <item android:id="@+id/emp_menu_log_out"
+        android:icon="@drawable/logout_icon"
+        android:title="Log out"
+
+        />
+
+
+
+</group>
+</menu>
